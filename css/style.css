@@ -1,0 +1,46 @@
+.menu {
+}
+.menu__burger {
+   display: block;
+   position: absolute;
+   right: 0;
+   top: 0;
+   overflow: hidden;
+   width: 96px;
+   height: 96px;
+   font-size: 0;
+   cursor: pointer;
+}
+.menu__burger {
+   background: #cb0032;
+}
+.menu__burger span {
+   display: block;
+   position: absolute;
+   top: 44px;
+   left: 18px;
+   right: 18px;
+   height: 8px;
+   background-color: white;
+}
+.menu__burger span::before, .menu__burger span::after{
+   content: '';
+   display: block;
+   position: absolute;
+   left: 0;
+   width: 100%;
+   height: 8px;
+   background-color: white ;
+}
+.menu__burger span::before {
+   top: -20px;
+}
+.menu__burger span::after {
+   bottom: -20px;
+}
+.menu__burger_line {
+}
+.container {
+}
+.main {
+}
